@@ -1,0 +1,73 @@
+body{
+    background-color:black;
+    width : 100%;
+    background-size: cover;
+}
+.name{
+    text-align: center;
+    font-size:30px;
+    color:#fff;
+    font-family: 'Allison', cursive;
+}
+.reg{
+    text-align: center;
+    font-size:25px;
+    color:#ccc;
+    font-family: 'Dancing Script', cursive;
+}
+.reghead{
+    font-family: 'Open Sans', sans-serif;
+    color: #ccc;
+    font-size:18px;
+    text-align:center;
+
+}
+.regfont{
+    font-family: 'Open Sans', sans-serif;
+    color: #ccc;
+    font-size:12px;
+    padding: 12px 20px;
+
+}
+#regpage{
+      font-size:12px;
+      width: 100%;
+      padding: 12px 20px;
+      margin: 2px 0;
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: black;
+      font-family: 'Open Sans', sans-serif;
+      color: #ccc;
+}
+.regpagebutton{
+     width: 48%;
+     background-color: #4C4C4C;
+     color: white;
+     padding: 8px 10px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     font-family: 'Open Sans', sans-serif;
+}
+.regpagebutton:hover {
+    background-color: #ccc;
+}
+input[type="radio"] {
+    display: none;
+}
+label{
+    color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    cursor: pointer;
+}
+input[type="radio"]:checked+label {
+    color: white;
+    width: 100px;
+    height: 20px;
+    transition: .3s ease-out;
+}

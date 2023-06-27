@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <link rel="stylesheet" href="style.css">
+    <script src="validation.js"></script>
+    <title>Student Application Form</title>
+</head>
+<body>
+<div class =name>K.Sujigarasharma</div>
+<div class =reg>-22MCA0422-</div>
+<br><br><br>
+<form method="POST" action="Form" onsubmit="return ValidateForm(this);" >
+    <div class="reghead">Student Application Form<br><br>
+        <table align="center">
+            <tr>
+                <td> <input type = "text" name ="firstname" id=regpage  placeholder="First Name"></td>
+                <td> <input type = "text" name ="lastname" id=regpage  placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td> <input type = "text" name ="email" id=regpage  placeholder="E-Mail"></td>
+                <td> <input type = "text" name ="contact" id=regpage  placeholder="Contact number"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="regfont">Gender
+                </td>
+                <td>
+                    <div class="regfont">
+                        <input type="radio" name="gender" id="Male" value="Male" checked>
+                        <label for="Male">Male</label> &nbsp &nbsp / &nbsp &nbsp
+                        <input type="radio" name="gender" id="Female" value="Female">
+                        <label for="Female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="regfont">Date of birth
+                </td>
+                <td>
+                    <input type = "date" name ="dob" id=regpage></td>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=3>
+                    <input  type = "submit" class="regpagebutton" name="submit" value = "Send Application" >
+                </td>
+            </tr>
+        </table>
+</form>
+</body>
+</html>
