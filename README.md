@@ -1,4 +1,4 @@
-# Java-PracticeQuestions-2
+# Java Questions 2
 
 Q1) A class called Circle is designed as given below. It contains one private instance variable: radius (of type double). Two constructors, Two public methods: getRadius() and findArea().Define the main class and test the program.
 
